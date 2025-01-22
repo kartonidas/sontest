@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'backup' => [
+        'dump_message_after_days' => env('DUMP_MESSAGE_AFTER_DAYS'),
+        'remove_backup_after_months' => env('REMOVE_BACKUP_AFTER_MONTHS'),
+    ]
+
 ];
